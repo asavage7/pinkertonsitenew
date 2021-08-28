@@ -26,7 +26,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 15px;
-    background-image: url(/assets/images/s3.webp);
+    background-image: url(assets/images/s3.webp);
     color: white;
     text-shadow: 0 0 5px #000000;
 }
@@ -195,7 +195,7 @@ a {
 }
 
 .header {
-    background-image: url(/assets/images/s3.jpg);
+    background-image: url(assets/images/s3.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position-y: bottom;
