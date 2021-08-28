@@ -1,0 +1,118 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">
+        <img src="/assets/images/icon.png" alt="Pinkerton Logo" width="30" height="30" class="d-inline-block align-text-top logo">  
+        PinkertonMC
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Getting Started</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/shop.html" tabindex="-1" aria-disabled="true">Store</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Discussion
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Announcements</a></li>
+              <li><a class="dropdown-item" href="#">Changelogs</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Forums</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+          </li>
+        </ul>
+        
+        <form class="justify-content-start d-flex">
+            <button class="btn btn-primary me-2" type="button" data-bs-toggle="modal" data-bs-target="#signUp">Sign Up</button>
+        <li class="nav-item dropdown-toggle list-unstyled">
+            <button class="btn btn-secondary dropdown-toggle" href="#" id="loginDropdown" data-bs-toggle="dropdown" type="button">Log In</button>
+            <ul class="dropdown-menu dropdown-menu-end loginbar popout" aira-labelledby="loginDropdown">
+                <form class="px4 py3">
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+                    <input required type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+                    <input required type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                  </div>
+                  <div class="mb-3">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Log in</button>
+                </form>
+                <div class="dropdown-divider maincontent"></div>
+                <a href="#">
+                <img class="gsignin" src="assets/images/signin.png">
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#signUp">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
+            </ul>
+        </li>
+          </form>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="signUp" tabindex="-1" aria-labelledby="signUp" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="SignUpLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username *</label>
+                    <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input required type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div id="usernameHelp" class="form-text">This will be visible publicly and can only contain letters and numbers.</div>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address *</label>
+                  <input required type="email" class="form-control" placeholder="example@example.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password *</label>
+                  <input required type="password" class="form-control" placeholder="Pa$$w0rd" id="exampleInputPassword1">
+                  <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </div>
+                </div>
+                
+                <div class="mb-3 form-check">
+                  <input required type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I agree to the Terms and Conditions and the Privacy Policy. *</label>
+                    </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                  <label class="form-check-label" for="exampleCheck2">I agree to recieve marketing and promotion emails from PinkertonMC. We won't spam.</label>
+                </div>
+                <p class="text text-muted">Fields marked with a * are required.</p>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+              <br>
+              <div class="dropdown-divider maincontent"></div>
+              <a href="#">
+                <img class="gsignin" src="assets/images/signin.png">
+                </a>
+        </div>
+
+      </div>
+    </div>
+  </div>

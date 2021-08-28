@@ -1,0 +1,1 @@
+Normal, *Italicized*, **Bold**, __Underlined__, ***__All 3__***

@@ -1,0 +1,223 @@
+body {
+    background-color: lightgray;
+    padding-top: 58px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    background-color: white;
+    border-radius: 5px;
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.maincontent>* {
+    margin: 5px;
+    padding: 5px;
+}
+
+.maintext {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-image: url(/assets/images/s3.webp);
+    color: white;
+    text-shadow: 0 0 5px #000000;
+}
+
+.mainimage {
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+    -webkit-filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.card {
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+}
+
+.interactivecard:hover {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.bi-discord {
+    color: #5770c9;
+    font-size: 72px;
+}
+
+.bi-calendar-check-fill {
+    color: rgb(28, 149, 197);
+    font-size: 72px;
+}
+
+.bi-chat-dots-fill {
+    color: rgb(66, 199, 66);
+    font-size: 72px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.linkbadge:hover {
+    color: lightgray;
+}
+
+.addonleft {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.addonright {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.loginbar {
+    margin: 5px;
+    padding: 10px;
+}
+
+.gsignin {
+    height: 50px;
+    margin: auto;
+}
+
+.featuresimg {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.popout {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    margin:2px;
+    background-color: #6c757d;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.dot:hover {
+    background-color: rgb(151, 153, 156);
+}
+
+.doticon {
+    color: #212529;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+
+.logo {
+    border-radius: 5px;
+}
+
+.badge {
+    font-family: Ubuntu, sans-serif;
+}
+
+.wide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video img {
+    width: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.author * {
+    display: inline-block;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 36px;
+}
+
+.round {
+    background-color: #eeeeee;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.carousel {
+    height: 400px;
+}
+
+.carousel-item {
+    height: 400px;
+    min-width: 100%;
+    text-shadow: 0 0 10px #000000;
+}
+
+.card-header {
+    margin-bottom: 10px;
+}
+
+.col {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.header {
+    background-image: url(/assets/images/s3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    margin: -10px;
+    border-radius: 3px 3px 0 0;
+}
+
+.header * {
+    color: white;
+}
+
+.pb {
+    background-color: #004080;
+    margin: -10px;
+    border-radius: 3px 3px 0 0;
+    color: white;
+}
+
+.dg {
+    background-color: #121212;
+    margin: -10px;
+    border-radius: 3px 3px 0 0;
+    color: white;
+}
