@@ -2,6 +2,10 @@ body {
     background-color: lightgray;
     padding-top: 58px;
     font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .content {
@@ -132,21 +136,6 @@ a {
 
 .badge {
     font-family: Ubuntu, sans-serif;
-}
-
-.wide {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-    overflow: hidden;
 }
 
 .video img {
