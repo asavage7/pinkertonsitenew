@@ -106,7 +106,7 @@ a {
 .dot {
     height: 50px;
     width: 50px;
-    margin:2px;
+    margin: 2px;
     background-color: #6c757d;
     border-radius: 50%;
     display: inline-flex;
@@ -151,6 +151,7 @@ a {
 
 .video img {
     width: 100%;
+    filter: blur(5px);
 }
 
 .left {
@@ -196,7 +197,6 @@ a {
 
 .header {
     background-image: url(../images/s3.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -220,4 +220,52 @@ a {
     margin: -10px;
     border-radius: 3px 3px 0 0;
     color: white;
+}
+
+.navbar-text {
+    margin-right: 15px;
+}
+
+.avatar {
+    margin: 15px;
+}
+
+.socials {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.carousel-caption {
+    overflow:visible;
+    width:auto;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius:15px;
+}
+
+.er {
+    background-image: url(../images/earth.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mr {
+    background-image: url(../images/merchheader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pr {
+    background-image: url(../images/premiumheader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
