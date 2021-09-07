@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PinkertonMC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/images/navicon.png" rel="icon">
+  <script src="https://kit.fontawesome.com/c85ca42fb0.js" crossorigin="anonymous"></script>
+  <script src="assets/js/include.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <div w3-include-html="includes/header.html"></div>
+  <div class="content maincontent">
+    <h1>Partners</h1>
+    <h4>The other servers we recommend.</h4>
+    <div class="card mb-3">
+      <div class="card-header">
+        <h3>Check out our partners below.</h3>
+        <h5>To join one, check out the partner hall in out lobby, on the opposite side of Earth.</h5>
+        <p>If you'd like to become a partner, check out our guidelines <a href="">here</a>.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col">
+          <div class="card interactivecard h-100">
+            <div class="header">
+              <img class="avatar partner rounded" src="./assets/images/partners/aetheris.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Aetheris SMP</h5>
+              <p><span class="badge bg-primary">Minecraft Server</span> <span class="badge bg-success">Discord Server</span></p>
+              <p>Aetheris is an SMP that continues the idea of Season 3 with new items, mechanics, bosses, and more, all
+                without mods.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-success" href="#" role="button">Discord Server</a>
+              <a class="btn btn-primary" href="#" role="button">Copy IP</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card interactivecard h-100">
+            <div class="header">
+              <img class="avatar partner rounded" src="./assets/images/partners/tavern.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">The Tavern</h5>
+              <p><span class="badge bg-success">Discord Server</span></p>
+              <p>A chill, multipurpose, bar themed server. A lot of video games are
+                played including games such as Sea of Thieves, Valorant, Jackbox, and many more.</p>
+
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-success" href="#" role="button">Discord Server</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card interactivecard h-100">
+            <div class="header">
+              <img class="avatar partner rounded" src="./assets/images/partners/asavage7.png">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Asavage7 Official</h5>
+              <p><span class="badge bg-success">Discord Server</span></p>
+              <p>The official Discord server for Asavage7. Check out projects, chat, and have fun. We are an all inclusive server with interests in gaming and video/visual editing.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-success" href="#" role="button">Discord Server</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div w3-include-html="includes/footer.html"></div>
+  <script>includeHTML();</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyC-FNWJcMFmyGJb9SV99Dr-hvG8B_6i1aE",
+      authDomain: "pinkertonmc-50666.firebaseapp.com",
+      projectId: "pinkertonmc-50666",
+      storageBucket: "pinkertonmc-50666.appspot.com",
+      messagingSenderId: "979255070807",
+      appId: "1:979255070807:web:21598911dcd48d3a215312",
+      measurementId: "G-7V9382PB15"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
+</html>
