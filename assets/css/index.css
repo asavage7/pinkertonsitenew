@@ -138,8 +138,9 @@ p a {
     border-radius: 5px;
 }
 
-.bi-patch-check-fill {
+.bi-check-circle-fill {
     color:#48b948;
+    border-radius:50%;
 }
 
 .badge {
